@@ -136,3 +136,24 @@ crashlytics-build.properties
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Unity projects at any depth, .NET outputs, local verification and private credentials
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]in/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/.vs/
+**/*.apk
+**/*.aab
+**/*.keystore
+**/*.jks
+**/*.pfx
+**/*.user
+**/*.sln
+**/*.csproj.user
+Verification/baseline/
+Verification/*.tgz
