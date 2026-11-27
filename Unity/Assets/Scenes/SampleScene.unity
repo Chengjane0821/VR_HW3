@@ -5542,11 +5542,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mode: 0
-  serverIP: 192.168.1.100
+  serverIP: 192.168.0.144
   serverPort: 8888
   portName: COM5
   baudRate: 9600
   potValue: 0
+  connectionStatus: Disconnected
 --- !u!4 &679693435
 Transform:
   m_ObjectHideFlags: 0
