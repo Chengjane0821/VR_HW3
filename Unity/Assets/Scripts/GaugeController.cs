@@ -16,9 +16,9 @@ public class GaugeController : MonoBehaviour
 
     void Start()
     {
-        arduinoManager = FindFirstObjectByType<ArduinoManager>();
+        if (arduinoManager == null) arduinoManager = FindFirstObjectByType<ArduinoManager>();
 
-        needlePivot = transform.Find("NeedlePivot");
+        if (needlePivot == null) needlePivot = transform.Find("NeedlePivot");
 
         if (arduinoManager == null)
             Debug.LogError("ArduinoManager not found!");

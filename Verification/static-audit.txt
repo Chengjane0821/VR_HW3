@@ -1,0 +1,16 @@
+PASS: Exactly one ArduinoManager component
+PASS: Duplicate component removed without dangling references
+PASS: LEDOn Select Entered targets retained manager
+PASS: LEDOff Select Entered targets retained manager
+PASS: Gauge references retained manager
+PASS: All serialized type 4 blocks preserved (Transform/Renderer/PrefabInstance)
+PASS: All serialized type 23 blocks preserved (Transform/Renderer/PrefabInstance)
+PASS: All serialized type 1001 blocks preserved (Transform/Renderer/PrefabInstance)
+PASS: ArduinoManager.cs.meta unchanged
+PASS: GaugeController.cs.meta unchanged
+PASS: manifest.json unchanged
+PASS: packages-lock.json unchanged
+PASS: Internet permission forced
+PASS: ARM64 retained
+PASS: IL2CPP retained
+PASS: SampleScene enabled in build scenes

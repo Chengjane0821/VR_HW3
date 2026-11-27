@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RollForward>LatestMajor</RollForward>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <DefineConstants>UNITY_ANDROID</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/WireProtocol.cs" Link="WireProtocol.cs" Condition="Exists('../../Unity/Assets/Scripts/WireProtocol.cs')" />
+    <Compile Include="../../Assets/Scripts/WireProtocol.cs" Link="WireProtocol.cs" Condition="!Exists('../../Unity/Assets/Scripts/WireProtocol.cs')" />
+    <Compile Include="../../Unity/Assets/Scripts/ArduinoManager.cs" Link="ArduinoManager.cs" Condition="Exists('../../Unity/Assets/Scripts/ArduinoManager.cs')" />
+    <Compile Include="../../Assets/Scripts/ArduinoManager.cs" Link="ArduinoManager.cs" Condition="!Exists('../../Unity/Assets/Scripts/ArduinoManager.cs')" />
+  </ItemGroup>
+</Project>

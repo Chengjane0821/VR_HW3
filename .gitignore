@@ -157,3 +157,6 @@ crashlytics-build.properties
 **/*.csproj.user
 Verification/baseline/
 Verification/*.tgz
+# Hand-written .NET projects are source, not Unity-generated project files.
+!Bridge/ArduinoBridge.csproj
+!Tests/TransportChecks/TransportChecks.csproj

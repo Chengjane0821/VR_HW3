@@ -5522,7 +5522,6 @@ GameObject:
   m_Component:
   - component: {fileID: 679693435}
   - component: {fileID: 679693434}
-  - component: {fileID: 679693433}
   m_Layer: 0
   m_Name: ArduinoManager
   m_TagString: Untagged
@@ -5530,21 +5529,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &679693433
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 679693432}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d417175d76813974b9dfc786cd359ea7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  portName: COM5
-  baudRate: 9600
-  potValue: 0
 --- !u!114 &679693434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5557,6 +5541,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d417175d76813974b9dfc786cd359ea7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mode: 0
+  serverIP: 192.168.1.100
+  serverPort: 8888
   portName: COM5
   baudRate: 9600
   potValue: 0
